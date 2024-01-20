@@ -16,3 +16,6 @@ class TestCalc:
 
   def test_equal_4(self):
     assert self.inst.equal_2(10, 2) == 20 #20
+  
+  def test_equal_5(self):
+    assert self.inst.equal_2(10, 3) == 30 
