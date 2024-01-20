@@ -15,4 +15,4 @@ class TestCalc:
     assert self.inst.equal_2(10, 100) == 1000
 
   def test_equal_4(self):
-    assert self.inst.equal_2(10, 2) == 200 #20
+    assert self.inst.equal_2(10, 2) == 20 #20
